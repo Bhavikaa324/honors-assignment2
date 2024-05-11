@@ -1,7 +1,7 @@
 # honors-assignment2
-# Blog-website
+# Book Review-website
 
-This is a blog website built with:
+This is a book review website built with:
 
 * Frontend: React
 * Backend: Node.js Express
@@ -20,8 +20,8 @@ The frontend uses React, a JavaScript library for building user interfaces. It l
 * AdminLogin: Admin login access.
 * Singlepost: View a single blog post.
 * Admin: Admin dashboard.
-    * CardList: List of users (Admin view).
-    * BlogList: List of blog posts (Admin view).
+* CardList: List of users (Admin view).
+* BlogList: List of blog posts (Admin view).
 * ProfilePage: User profile view.
 * EditProfile: Edit user profile details.
 
@@ -74,24 +74,9 @@ These routes are handled by the Express application and are typically accessed t
 
 **Note:** These backend routes are typically not directly accessed by users in the browser. They are used by the frontend application through AJAX requests to interact with the server.
 
-## Getting Started
 
-**Prerequisites:** Node.js and npm (or yarn)
 
-1. Clone this repository.
-2. Install dependencies for frontend:
-
-   ```bash
-   cd frontend
-   npm install
-
-3. Install dependencies for backend:
-
-   ```bash
-   cd backend
-   npm i
-
-## Runnig this project 
+## Running this project 
 
 1. For frontend:
 
