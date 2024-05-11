@@ -1,0 +1,85 @@
+/* CreateBlog.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #a1b6cb;
+}
+
+#dashboard {
+  background-color: #1e184f;
+  color: #fff;
+  padding: 15px;
+}
+
+form {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form textarea {
+  width: calc(100% - 40px);
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #2f2f2f;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  height: 50px;
+}
+
+textarea {
+  height: 300px;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2f2f2f;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003a79;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  form {
+    padding: 10px;
+  }
+
+  input[type="text"],
+  textarea {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    font-size: 24px;
+    height: 40px;
+  }
+
+  textarea {
+    height: 200px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 8px 16px;
+    border-radius: 15px;
+  }
+}
