@@ -31,6 +31,7 @@ body {
 
 .profile h2, .blog-section h2 {
     margin-bottom: 20px;
+    color: #1e184f;
 }
 
 .profile-info {
@@ -55,6 +56,7 @@ body {
     flex: 0 0 60%;
     background-color: #fff;
     padding: 20px;
+    color: #1e184f;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -62,6 +64,8 @@ body {
 .blog-list {
     max-height: 500px;
     overflow-y: auto;
+    color: #1e184f;
+
 }
 
 .blog-item {

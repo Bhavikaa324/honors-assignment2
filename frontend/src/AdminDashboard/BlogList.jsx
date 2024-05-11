@@ -46,8 +46,8 @@ function BlogList() {
             <h3>By: {blog.username}</h3>
             <p>{blog.description}</p>
             <div className="buttons">
-              <button>View Blog</button>
-              <button>Delete Blog</button>
+              <button>View Review</button>
+              <button>Delete Review</button>
             </div>
           </div>
         ))}

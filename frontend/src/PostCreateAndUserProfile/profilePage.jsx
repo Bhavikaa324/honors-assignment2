@@ -27,7 +27,7 @@ const ProfilePage = () => {
   return (
     <div>
       <div id="dashboard">
-        <h1>My Blog</h1>
+        <h1>Book Review</h1>
       </div>
 
       <div className="container">
@@ -41,7 +41,7 @@ const ProfilePage = () => {
           </button>
         </div>
         <div className="blog-section">
-          <h2>My Blogs</h2>
+          <h2>Book Reviews</h2>
           <div className="blog-list">
             {blogs.map((blog, index) => (
               <div key={index} className="blog-item">

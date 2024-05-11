@@ -26,7 +26,7 @@ function EditProfile() {
     return (
         <>
             <div className="edit-dashboard">
-                <h1>My Blog</h1>
+                <h1>Book Review</h1>
                 </div>
             <div className="edit-container">
                 <form id="editProfileForm" onSubmit={handleSubmit}>

@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 20px;
+  color: #1e184f;
+ 
 }
 
 .card {
@@ -11,6 +13,7 @@
   margin-bottom: 20px;
   margin-left: 20px;
   border-radius: 20px;
+  color: #1e184f;
   width: calc(33.33% - 20px); /* Adjust width for three cards in a row with spacing */
   box-sizing: border-box; /* Ensure padding doesn't affect width */
 }

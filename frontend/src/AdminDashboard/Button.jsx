@@ -9,7 +9,7 @@ const Button = () => {
         Manage a User
       </Link>
       <Link to="manage-posts" className="custom-button">
-        Manage a Post
+        Manage a Review
       </Link>
     </div>
   );

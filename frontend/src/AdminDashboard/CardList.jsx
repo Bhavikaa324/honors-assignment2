@@ -36,7 +36,7 @@ function CardList() {
         {filteredUsers.map((user, index) => (
           <div key={index} className="card">
             <h1>{user.username}</h1>
-            <p>Number of Posts: {user.postCount}</p>
+            <p>Number of Reviews: {user.postCount}</p>
             <button>Delete</button>
           </div>
         ))}
