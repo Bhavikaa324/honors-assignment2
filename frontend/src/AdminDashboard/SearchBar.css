@@ -1,0 +1,44 @@
+.search-bar {
+  margin-bottom: 20px;
+  padding: 40px 80px;
+  border-radius: 80px; 
+}
+
+.search-bar input {
+  padding: 24px; /* Adjust padding for height */
+  width: 80%; /* Adjust width as needed */
+  border-radius: 40px; /* Adjust border radius for a circular shape */
+  border: 3px solid #ccc;
+}
+
+.search-bar button {
+  padding: 24px 64px; /* Adjust padding for height and width */
+  font-size: 36px; /* Adjust font size */
+  background-color: #1e184f;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .search-bar {
+    padding: 30px; /* Adjust padding for smaller screens */
+  }
+
+  .search-bar input {
+    padding: 20px; /* Adjust input padding for smaller screens */
+  }
+
+  .search-bar button {
+    padding: 20px 48px; /* Adjust button padding for smaller screens */
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+}
+.search-bar input {
+    padding: 24px; /* Adjust padding for height */
+    width: 100%; /* Adjust width as needed */
+    border-radius: 40px; /* Adjust border radius for a circular shape */
+    border: 3px solid #ccc;
+}

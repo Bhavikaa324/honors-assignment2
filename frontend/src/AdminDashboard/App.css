@@ -1,0 +1,12 @@
+.Admin {
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center align children horizontally */
+  padding-top: 100px; /* Adjust as needed */
+}
+
+@media screen and (min-width: 576px) {
+  .Admin {
+    padding-top: 150px; /* Adjust padding for larger screens */
+  }
+}

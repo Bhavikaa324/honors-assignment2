@@ -1,0 +1,50 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: lightblue;
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  width: calc(33.33% - 20px); /* Adjust width for three cards in a row with spacing */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.card h1 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1e184f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #1e184f;
+}
+
+@media screen and (max-width: 992px) {
+  .card {
+    width: calc(50% - 20px); /* Adjust width for two cards in a row with spacing */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: calc(100% - 20px); /* Adjust width for one card per row with spacing */
+  }
+}
